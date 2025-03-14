@@ -1,15 +1,10 @@
-import { Text, View } from "react-native";
+import SearchBox from "@/components/SearchBox";
+import {  View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Home page</Text>
+    <View style={{margin: 20}}>
+      <SearchBox />
     </View>
   );
 }
