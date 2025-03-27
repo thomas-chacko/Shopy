@@ -13,13 +13,7 @@ export default function RootLayout() {
             headerShown: false,
           }}
         />
-        {/* <Stack.Screen
-          name="product/[id]"
-          options={{
-            headerShown: false,
-          }}
-        /> */}
       </Stack>
-    </>
+  </>
   )
 }
