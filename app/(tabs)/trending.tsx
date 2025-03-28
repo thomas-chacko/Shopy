@@ -3,7 +3,7 @@ import React from 'react'
 
 const Trending = () => {
   return (
-    <View>
+    <View style={{ margin:10  }}>
       <Text>Trending</Text>
     </View>
   )

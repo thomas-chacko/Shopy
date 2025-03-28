@@ -5,7 +5,7 @@ export type ColorType = {
 export type ProductType = {
     id: number,
     title: string,
-    price: number,
+    price: string,
     description: string,
     category: string,
     image: string,
