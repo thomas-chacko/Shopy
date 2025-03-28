@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import ProductCard from '@/components/ProductCard'
 
 const Trending = () => {
   return (
-    <View>
-      <Text>Trending</Text>
+    <View style={{ margin:10  }}>
+      <ProductCard />
     </View>
   )
 }

@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { colors } from "@/constants/color";
 import MyCarousel from "@/components/MyCarousel";
+import CategoryButtons from "@/components/CategoryButtons";
 
 export default function Index() {
   return (
@@ -18,12 +19,16 @@ export default function Index() {
       </View>
 
       <View style={styles.popular_header}>
-        <Text style={{ fontSize: 15, fontWeight: 600 }}>Popular Item</Text>
-        <Text style={{ fontWeight: 400 }}>See all</Text>
+        <Text style={{ fontSize: 15, fontWeight: 500, color: colors.black }}>Popular Item</Text>
+        <Text style={{ fontWeight: 400, color: colors.text }}>See all</Text>
       </View>
 
-      <View style={{ marginTop: 10 }}>
+      <View>
         <MyCarousel />
+      </View>
+
+      <View style={{ marginTop: 20 }}>
+        <CategoryButtons />
       </View>
     </View>
   );
